@@ -1,5 +1,6 @@
 //冒泡排序
 
+//时间复杂度太高，很简单但是很落后的一种算法
 import java.util.*;
 public class Solution {
     public int[] MySort (int[] arr) {
@@ -17,4 +18,10 @@ public class Solution {
     }
 }
 
-//时间复杂度太高，很简单但是很落后的一种算法
+//Arryas自带的一种排序方法
+public class Solution2 {
+    public int[] MySort (int[] arr) {
+            Arrays.sort(arr);
+            return arr;
+    }
+}
