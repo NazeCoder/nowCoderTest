@@ -3,7 +3,7 @@ public class Main{
     public static void main(String[] args){
         Scanner cs = new Scanner(System.in);
         String str = cs.nextLine();
-        String[] list = str.split(" ");
+        String[] list = str.split("\\s+");
         System.out.print(list[list.length-1].length());
     }
 }
