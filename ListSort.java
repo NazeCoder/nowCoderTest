@@ -59,6 +59,7 @@ public class Solution {
         // 用数组的第一个元素作为基准数
         int first = list[left];
         while (left < right) {
+            //为防止第一个就是最大数，所以要从最右侧的数字开始比较
             while (left < right && list[right] >= first) {
                 right--;
             }
